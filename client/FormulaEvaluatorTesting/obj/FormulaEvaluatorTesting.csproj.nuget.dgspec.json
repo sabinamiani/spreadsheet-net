@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tyler\\source\\repos\\DylanQuach\\COCOPROLIVES\\spreadsheet\\client\\FormulaEvaluatorTesting\\FormulaEvaluatorTesting.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tyler\\source\\repos\\DylanQuach\\COCOPROLIVES\\spreadsheet\\client\\FormulaEvaluatorTesting\\FormulaEvaluatorTesting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tyler\\source\\repos\\DylanQuach\\COCOPROLIVES\\spreadsheet\\client\\FormulaEvaluatorTesting\\FormulaEvaluatorTesting.csproj",
+        "projectName": "FormulaEvaluatorTesting",
+        "projectPath": "C:\\Users\\tyler\\source\\repos\\DylanQuach\\COCOPROLIVES\\spreadsheet\\client\\FormulaEvaluatorTesting\\FormulaEvaluatorTesting.csproj",
+        "packagesPath": "C:\\Users\\tyler\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tyler\\source\\repos\\DylanQuach\\COCOPROLIVES\\spreadsheet\\client\\FormulaEvaluatorTesting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\tyler\\source\\repos\\DylanQuach\\COCOPROLIVES\\spreadsheet\\client\\FormulaEvaluator\\FormulaEvaluator.csproj": {
+                "projectPath": "C:\\Users\\tyler\\source\\repos\\DylanQuach\\COCOPROLIVES\\spreadsheet\\client\\FormulaEvaluator\\FormulaEvaluator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tyler\\source\\repos\\DylanQuach\\COCOPROLIVES\\spreadsheet\\client\\FormulaEvaluator\\FormulaEvaluator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tyler\\source\\repos\\DylanQuach\\COCOPROLIVES\\spreadsheet\\client\\FormulaEvaluator\\FormulaEvaluator.csproj",
+        "projectName": "FormulaEvaluator",
+        "projectPath": "C:\\Users\\tyler\\source\\repos\\DylanQuach\\COCOPROLIVES\\spreadsheet\\client\\FormulaEvaluator\\FormulaEvaluator.csproj",
+        "packagesPath": "C:\\Users\\tyler\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tyler\\source\\repos\\DylanQuach\\COCOPROLIVES\\spreadsheet\\client\\FormulaEvaluator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
